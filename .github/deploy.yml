@@ -19,3 +19,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
+
+
+#Uses a popular action to deploy your repository to GitHub Pages.
+#github_token allows the workflow to push to gh-pages branch automatically.
+#publish_dir: . means publish everything in the repo root.
